@@ -14,6 +14,18 @@
 		71201F7722BA378C000CFE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71201F7522BA378C000CFE54 /* LaunchScreen.storyboard */; };
 		71201F8222BA378C000CFE54 /* Data_Passing_CleanSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201F8122BA378C000CFE54 /* Data_Passing_CleanSwiftTests.swift */; };
 		71201F8D22BA378C000CFE54 /* Data_Passing_CleanSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201F8C22BA378C000CFE54 /* Data_Passing_CleanSwiftUITests.swift */; };
+		71201FA222BA38A8000CFE54 /* GetDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201F9C22BA38A8000CFE54 /* GetDataPresenter.swift */; };
+		71201FA322BA38A8000CFE54 /* GetDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201F9D22BA38A8000CFE54 /* GetDataWorker.swift */; };
+		71201FA422BA38A8000CFE54 /* GetDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201F9E22BA38A8000CFE54 /* GetDataRouter.swift */; };
+		71201FA522BA38A8000CFE54 /* GetDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201F9F22BA38A8000CFE54 /* GetDataModels.swift */; };
+		71201FA622BA38A8000CFE54 /* GetDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201FA022BA38A8000CFE54 /* GetDataViewController.swift */; };
+		71201FA722BA38A8000CFE54 /* GetDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201FA122BA38A8000CFE54 /* GetDataInteractor.swift */; };
+		71201FAE22BA38F1000CFE54 /* SendDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201FA822BA38F1000CFE54 /* SendDataPresenter.swift */; };
+		71201FAF22BA38F1000CFE54 /* SendDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201FA922BA38F1000CFE54 /* SendDataWorker.swift */; };
+		71201FB022BA38F1000CFE54 /* SendDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201FAA22BA38F1000CFE54 /* SendDataRouter.swift */; };
+		71201FB122BA38F1000CFE54 /* SendDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201FAB22BA38F1000CFE54 /* SendDataModels.swift */; };
+		71201FB222BA38F1000CFE54 /* SendDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201FAC22BA38F1000CFE54 /* SendDataViewController.swift */; };
+		71201FB322BA38F1000CFE54 /* SendDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71201FAD22BA38F1000CFE54 /* SendDataInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		71201F8822BA378C000CFE54 /* Data-Passing-CleanSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Data-Passing-CleanSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71201F8C22BA378C000CFE54 /* Data_Passing_CleanSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_Passing_CleanSwiftUITests.swift; sourceTree = "<group>"; };
 		71201F8E22BA378C000CFE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71201F9C22BA38A8000CFE54 /* GetDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataPresenter.swift; sourceTree = "<group>"; };
+		71201F9D22BA38A8000CFE54 /* GetDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataWorker.swift; sourceTree = "<group>"; };
+		71201F9E22BA38A8000CFE54 /* GetDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataRouter.swift; sourceTree = "<group>"; };
+		71201F9F22BA38A8000CFE54 /* GetDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataModels.swift; sourceTree = "<group>"; };
+		71201FA022BA38A8000CFE54 /* GetDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataViewController.swift; sourceTree = "<group>"; };
+		71201FA122BA38A8000CFE54 /* GetDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataInteractor.swift; sourceTree = "<group>"; };
+		71201FA822BA38F1000CFE54 /* SendDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataPresenter.swift; sourceTree = "<group>"; };
+		71201FA922BA38F1000CFE54 /* SendDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataWorker.swift; sourceTree = "<group>"; };
+		71201FAA22BA38F1000CFE54 /* SendDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataRouter.swift; sourceTree = "<group>"; };
+		71201FAB22BA38F1000CFE54 /* SendDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataModels.swift; sourceTree = "<group>"; };
+		71201FAC22BA38F1000CFE54 /* SendDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataViewController.swift; sourceTree = "<group>"; };
+		71201FAD22BA38F1000CFE54 /* SendDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +121,10 @@
 		71201F6B22BA378B000CFE54 /* Data-Passing-CleanSwift */ = {
 			isa = PBXGroup;
 			children = (
-				71201F6C22BA378B000CFE54 /* AppDelegate.swift */,
+				71201F9A22BA37A7000CFE54 /* GetData */,
+				71201F9B22BA3801000CFE54 /* SendData */,
 				71201F6E22BA378B000CFE54 /* ViewController.swift */,
+				71201F6C22BA378B000CFE54 /* AppDelegate.swift */,
 				71201F7022BA378B000CFE54 /* Main.storyboard */,
 				71201F7322BA378C000CFE54 /* Assets.xcassets */,
 				71201F7522BA378C000CFE54 /* LaunchScreen.storyboard */,
@@ -123,6 +149,32 @@
 				71201F8E22BA378C000CFE54 /* Info.plist */,
 			);
 			path = "Data-Passing-CleanSwiftUITests";
+			sourceTree = "<group>";
+		};
+		71201F9A22BA37A7000CFE54 /* GetData */ = {
+			isa = PBXGroup;
+			children = (
+				71201F9C22BA38A8000CFE54 /* GetDataPresenter.swift */,
+				71201F9D22BA38A8000CFE54 /* GetDataWorker.swift */,
+				71201F9E22BA38A8000CFE54 /* GetDataRouter.swift */,
+				71201F9F22BA38A8000CFE54 /* GetDataModels.swift */,
+				71201FA022BA38A8000CFE54 /* GetDataViewController.swift */,
+				71201FA122BA38A8000CFE54 /* GetDataInteractor.swift */,
+			);
+			path = GetData;
+			sourceTree = "<group>";
+		};
+		71201F9B22BA3801000CFE54 /* SendData */ = {
+			isa = PBXGroup;
+			children = (
+				71201FA822BA38F1000CFE54 /* SendDataPresenter.swift */,
+				71201FA922BA38F1000CFE54 /* SendDataWorker.swift */,
+				71201FAA22BA38F1000CFE54 /* SendDataRouter.swift */,
+				71201FAB22BA38F1000CFE54 /* SendDataModels.swift */,
+				71201FAC22BA38F1000CFE54 /* SendDataViewController.swift */,
+				71201FAD22BA38F1000CFE54 /* SendDataInteractor.swift */,
+			);
+			path = SendData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +308,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71201FA422BA38A8000CFE54 /* GetDataRouter.swift in Sources */,
 				71201F6F22BA378B000CFE54 /* ViewController.swift in Sources */,
+				71201FB322BA38F1000CFE54 /* SendDataInteractor.swift in Sources */,
+				71201FA522BA38A8000CFE54 /* GetDataModels.swift in Sources */,
+				71201FA222BA38A8000CFE54 /* GetDataPresenter.swift in Sources */,
+				71201FA322BA38A8000CFE54 /* GetDataWorker.swift in Sources */,
 				71201F6D22BA378B000CFE54 /* AppDelegate.swift in Sources */,
+				71201FAE22BA38F1000CFE54 /* SendDataPresenter.swift in Sources */,
+				71201FB122BA38F1000CFE54 /* SendDataModels.swift in Sources */,
+				71201FB222BA38F1000CFE54 /* SendDataViewController.swift in Sources */,
+				71201FB022BA38F1000CFE54 /* SendDataRouter.swift in Sources */,
+				71201FAF22BA38F1000CFE54 /* SendDataWorker.swift in Sources */,
+				71201FA622BA38A8000CFE54 /* GetDataViewController.swift in Sources */,
+				71201FA722BA38A8000CFE54 /* GetDataInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
